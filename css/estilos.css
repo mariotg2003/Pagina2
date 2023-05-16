@@ -1,0 +1,40 @@
+.boton{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: red;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+
+.boton:hover{
+    background-color: rgb(146, 2, 2);
+}
+
+
+#empezar{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border: 3px solid black;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,121,9,1) 0%, rgba(2,24,121,1) 0%, rgba(9,172,159,1) 0%, rgba(178,86,156,1) 51%, rgba(230,184,16,1) 100%);}
+#puntuacion{
+    width: 100px;
+    height: 100px;
+    color: black;
+    border: 3px solid black;
+    font-size: 80px;
+    text-align: center;
+    line-height: 100px;
+}
