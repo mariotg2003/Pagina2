@@ -13,8 +13,6 @@ function comprobar(){
     }  
 }
 
-
-
 function generar(){
     puntuacion.hidden=false
     empezar.hidden=true
@@ -38,9 +36,6 @@ function generar(){
     }
     
 }
-
-
-
 
 empezar.addEventListener("click",generar)
 
