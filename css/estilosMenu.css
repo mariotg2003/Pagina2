@@ -1,8 +1,8 @@
 #menu{
     margin: 0;
     padding: 0;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -27,7 +27,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;  
-    width: 45%;
+    width: 100%;
     height: 100%;
     background-color: lightblue;
 }
@@ -92,7 +92,7 @@ html{
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
 
     #datos{
         display: flex;
@@ -123,9 +123,29 @@ html{
         margin-top: 2%;
         margin-bottom: 2%;
         margin-right: 2%;
-        width: 100%;
+        width: 26%;
         height: 100%;
         border: 3px solid blue;
         background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(105,121,9,1) 0%, rgba(2,24,121,1) 0%, rgba(9,172,159,1) 0%, rgba(178,86,156,1) 51%, rgba(230,184,16,1) 100%);
+    }
+
+    .datos{
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        font-size: 23px;
+    }
+
+    .boton{
+        margin-bottom: 4%;
+        width: 70%;
+        height: 30px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        text-align: center;
+        color: black;
+        cursor: pointer;
+        border-radius: 20px;
+        border: 2px solid black;
     }
 }
