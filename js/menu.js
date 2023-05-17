@@ -4,13 +4,13 @@ let botonDificil=document.getElementById("boton3")
 
 
 botonFacil.addEventListener("click",function(){
-    location.href="JuegoFacil.html"
+    window.location.assign("JuegoFacil.html")
 })
 
 botonMedio.addEventListener("click",function(){
-    location.href="JuegoMedio.html"
+    window.location.assign("JuegoMedio.html")
 })
 
 botonDificil.addEventListener("click",function(){
-    location.href="JuegoDificil.html"
+    window.location.assign("JuegoDificil.html")
 })
