@@ -12,21 +12,40 @@
 }
 
 #empezar{
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
     background-color: red;
     border: 3px solid black;
     color:white;
     text-align: center;
-    line-height: 50px;
+    line-height: 200px;
     cursor: pointer;
+    font-size: 30px;
+}
+
+#headerPuntu{
+    margin-left: 10%;
+}
+
+#letraPunt{
+    font-size: 30px;
+    color: white;
+}
+
+html{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,121,9,1) 0%, rgba(2,24,121,1) 0%, rgba(9,172,159,1) 0%, rgba(178,86,156,1) 51%, rgba(230,184,16,1) 100%);
 }
 
 #cuerpo{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,121,9,1) 0%, rgba(2,24,121,1) 0%, rgba(9,172,159,1) 0%, rgba(178,86,156,1) 51%, rgba(230,184,16,1) 100%);}
+}
 
 #puntuacion{
     width: 100px;
@@ -37,3 +56,6 @@
     text-align: center;
     line-height: 100px;
 }
+
+
+

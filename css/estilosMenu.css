@@ -1,0 +1,131 @@
+#menu{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,121,9,1) 0%, rgba(2,24,121,1) 0%, rgba(9,172,159,1) 0%, rgba(178,86,156,1) 51%, rgba(230,184,16,1) 100%);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#parteBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modoJuegos{
+    border-radius: 10px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 45%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+.juego{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    width: 100%;
+    height: 100%;
+    border: 3px solid blue;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(105,121,9,1) 0%, rgba(2,24,121,1) 0%, rgba(9,172,159,1) 0%, rgba(178,86,156,1) 51%, rgba(230,184,16,1) 100%);
+}
+
+#datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 45%;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,121,9,1) 0%, rgba(2,24,121,1) 0%, rgba(9,172,159,1) 0%, rgba(178,86,156,1) 51%, rgba(230,184,16,1) 100%);
+}
+
+.datos{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+html{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,121,9,1) 0%, rgba(2,24,121,1) 0%, rgba(9,172,159,1) 0%, rgba(178,86,156,1) 51%, rgba(230,184,16,1) 100%);
+}
+
+.boton{
+    margin-bottom: 4%;
+    width: 70%;
+    height: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.boton:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 500px) {
+
+    #datos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        border: 3px solid black;
+        border-radius: 20px;
+        background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(105,121,9,1) 0%, rgba(2,24,121,1) 0%, rgba(9,172,159,1) 0%, rgba(178,86,156,1) 51%, rgba(230,184,16,1) 100%);
+    }
+
+
+    #modoJuegos{
+        border-radius: 10px;
+        border: 2px solid blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        width: 100%;
+        height: 100%;
+        background-color: lightblue;
+    }
+
+    .juego{
+        margin-left: 2%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: 2%;
+        width: 100%;
+        height: 100%;
+        border: 3px solid blue;
+        background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(105,121,9,1) 0%, rgba(2,24,121,1) 0%, rgba(9,172,159,1) 0%, rgba(178,86,156,1) 51%, rgba(230,184,16,1) 100%);
+    }
+}
