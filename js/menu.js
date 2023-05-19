@@ -13,7 +13,7 @@ nombreJugador.innerHTML=nombre
 
 
 botonDificil.addEventListener("click",function(){
-    window.location.replace("https://mariotg2003.github.io/Pagina2/JuegoDificil.html?nombre=Mario");
+    window.location.replace("https://mariotg2003.github.io/Pagina2/JuegoDificil.html");
 })
 
 botonMedio.addEventListener("click",function(){
