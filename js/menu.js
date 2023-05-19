@@ -1,6 +1,15 @@
 let botonFacil=document.getElementById("boton1")
 let botonMedio=document.getElementById("boton2")
 let botonDificil=document.getElementById("boton3")
+let nombreJugador=document.getElementById("nombreJugador")
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const parametroValor = urlParams.get('nombre');
+console.log(parametroValor)
+
+let nombre=localStorage.getItem("nombre"+parametroValor)
+nombreJugador.innerHTML=nombre
 
 
 botonDificil.addEventListener("click",function(){
