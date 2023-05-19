@@ -12,7 +12,7 @@ function comprobar(){
     puntuacion.hidden=true
     numeros=0
     puntuacion.innerHTML=""
-    location.replace("https://mariotg2003.github.io/Pagina2/index.html") 
+    location.replace("https://mariotg2003.github.io/Pagina2/menu.html") 
     }  
 }
 
