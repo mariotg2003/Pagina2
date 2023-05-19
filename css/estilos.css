@@ -63,11 +63,3 @@ html{
     height: 700px;
 }
 
-
-@media (max-width: 450px) {
-    #areaJuego{
-        width: 400px;
-        height: 400px;
-        background-color: red;
-    }
-}
